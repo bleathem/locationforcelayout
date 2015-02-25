@@ -10383,23 +10383,14 @@ h2,
     margin-right: 20px;
   }
 }
-.navbar-header {
-  padding: 5px 0;
-}
-.navbar-pf .navbar-utility > li > a {
-  padding: 12px 10px;
-}
-.navbar-pf .navbar-utility li.dropdown > .dropdown-toggle .pficon-user {
-  top: 12px;
-}
 .map-container {
-  margin: 20px 0 0 0;
+  margin: 0px 0 0 0;
   position: relative;
 }
 .map-container .info {
-  left: 10px;
+  left: 20px;
   position: absolute;
-  right: 10px;
+  right: 20px;
   top: 10px;
 }
 .map-container .info:before,
@@ -10529,7 +10520,6 @@ h2,
   background-size: 100% auto;
   /* 2442x1448 */
   background-position: center center;
-  border: 1px solid #eeeeee;
 }
 .node {
   fill: #ccc;
