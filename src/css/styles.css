@@ -10391,7 +10391,7 @@ h2,
   left: 20px;
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 20px;
 }
 .map-container .info:before,
 .map-container .info:after {
@@ -10533,4 +10533,27 @@ h2,
 .selected {
   stroke: rgba(0, 0, 0, 0.5);
   stroke-width: 5px;
+}
+.legend {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.legendInner {
+  width: 70px;
+  margin-bottom: 20px;
+}
+.arrowText {
+  display: inline-block;
+}
+.arrow {
+  display: inline-block;
+}
+.scale {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333333;
+  width: 20px;
+  height: 200px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #d92626, #d98026, #d9d926, #80d926, #26d926, #26d980, #26d9d9, #267fd9, #2626d9, #7f26d9);
 }
